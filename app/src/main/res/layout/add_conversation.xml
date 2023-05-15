@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="21dp"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:gravity="center"
+        android:text="@string/add_conversation"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:autofillHints="enter_name"
+        android:background="#fff"
+        android:hint="@string/enter_name"
+        android:inputType="text"
+        android:padding="9dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:id="@+id/add_conversation"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/purple_200"
+        android:layout_gravity="center"
+
+        />
+
+</LinearLayout>

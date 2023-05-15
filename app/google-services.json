@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "820451135230",
+    "firebase_url": "https://chatapplication-123456-default-rtdb.firebaseio.com",
+    "project_id": "chatapplication-123456",
+    "storage_bucket": "chatapplication-123456.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820451135230:android:898093445dbf06324edfaf",
+        "android_client_info": {
+          "package_name": "com.example.mynewapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820451135230-9he5updgbo1dt51t8m156v2kduh96drk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxkgtvrfWzVhkCVbOkUsBlEHF61gNqAN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820451135230-9he5updgbo1dt51t8m156v2kduh96drk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
